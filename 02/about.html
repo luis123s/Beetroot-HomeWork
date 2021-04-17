@@ -4,32 +4,73 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>index</title>
+    <title>Список Закупки</title>
 </head>
 <body>
-    <fieldset>
-        <legend>Список</legend>
-
-        <header>
-            <h1>Заголовок</h1>
-        
-            <nav>   
-                <ul>
-                    <li>Морква</li>
-                    <li>Картопля</li>
-                    <li>Хліб</li>
-                    <li>Сметана</li>
-                </ul>
-            </nav> 
-        </header>
-        <input type="checkbox" name="list" >
-        <label >
-            Я все <a href="#">купив</a>
-        </label>
+    <form action>
+        <fieldset>
+            <legend>Форма реєстрації</legend>
+            <br>
+            <label for="name">Введіть Імя</label>
+            <input type="text" name="registrtion_name" id="name">
+            <br>
+            <label for="email">Введіть Е-майл</label>
+            <input type="email" name="registrtion_email" id="email">
+            <br>
+            <label for="password">Введіть Пароль</label>
+            <input type="password" name="registrtion_password" id="password">
+            <br>
+            <label for="passwordConfirm">Підтвердження паролю</label>
+            <input type="passwordConfirm" name="Reg_password_Confirm" id="passwordConfirm">
+            <br>
+        </fieldset>
         <br>
-        <input type="submit" value="Купити все"> 
-       
-    </fieldset>   
+        <fieldset>
+            <legend>Список Закупки варіант 1 </legend>
+            <label for="position">Товар</label>
+            <select name="choise" id="position">
+                <option value="Куртка">Куртка</option>
+                <option value="Кросівки">Кросівки</option>
+                <option value="Майка">Майка</option>
+                <option value="топ">Топ</option>
+                <option hidden disabled selected>Виберіть Одне</option>
+            </select>
+            <fieldset>
+                <legend>Вибір Розміру</legend>
+                <input type="radio" name="size" id="sz1" value="<3">
+                <label for="size">S</label>
+                <input type="radio" name="size" id="sz2" value="1-3">
+                <label for="size">M</label>
+                <input type="radio" name="size" id="sz3" value=">3">
+                <label for="size">L</label>
+            </fieldset>
+            <br>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Список</legend>
+
+            <header>
+                <h1>Заголовок</h1>
+            
+                <nav>   
+                    <ul>
+                        <li>Морква</li>
+                        <li>Картопля</li>
+                        <li>Хліб</li>
+                        <li>Сметана</li>
+                    </ul>
+                </nav> 
+            </header>
+            <input type="checkbox" name="list" >
+            <label >
+                Я все <a href="#">купив</a>
+            </label>
+            <br>
+            <input type="submit" value="Купити все"> 
+        
+        </fieldset>  
+    </form>
   
     
 </body>
