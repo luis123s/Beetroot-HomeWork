@@ -1,0 +1,31 @@
+div { 
+    border-radius: 60px;
+
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    background-color: red
+    ;}
+
+footer {
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+}
+
+img {
+    border-style: dashed;
+    margin-right: auto;
+    margin-left: auto;
+    }
+body {
+    text-align: center;
+}
+
+#start {
+    border-style: none;
+}
+p {
+    font-weight: bold;
+}
