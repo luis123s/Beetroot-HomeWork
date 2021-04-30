@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.head {
+    padding-top: 110px;
+    text-align: center;
+    margin-bottom: 110px;
+
+    background-color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+
+
+}
+.Who {
+    font-size: 18px;
+    font-weight: 500;
+
+    background-color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+
+}
+.Hello{
+    font-size: 38px;
+    color: rgb(19, 168, 255);
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.head_text {
+    font-size: 12px;
+
+}
+.Web {
+    width: 1200px;
+   margin: 0 auto;
+    
+    
+    
+
+}
+.conteiner {
+    width: 300px;
+    height: 420px;
+    float: left;
+    text-align: center;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 56px;
+    padding-bottom: 56px;
+    line-height: 30px;
+
+    cursor: pointer;
+    transition: color .3s;
+    color:black;
+
+
+}
+.conteiner:hover {
+    background-color: rgb(17, 171, 243);
+    color: white;
+}
+.conteiner:active {
+    color: red;
+}
+.icon {
+    font-size: 50px;
+    line-height: 30px;
+    margin-bottom: 50px;
+    
+
+}
+.text {
+
+}
+.content {
+    margin-bottom: 50px;
+
+}
